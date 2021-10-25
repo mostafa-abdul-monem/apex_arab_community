@@ -1,5 +1,6 @@
 import 'package:apex/example.dart';
 import 'package:apex/home_page.dart';
+import 'package:apex/screens/onBoarding/onboarding_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const HomePage(),
+      home: const OnBoardingView(),
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
