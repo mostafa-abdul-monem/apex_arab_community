@@ -48,7 +48,7 @@ class OnBoardingView extends StatelessWidget {
           dotsDecorator: getDotsDecoration(),
           globalBackgroundColor: mainColor,
           isProgressTap: false,
-          animationDuration: 480,
+          animationDuration: 650,
           onSkip: () => goToHome(context),
         )),
       );
